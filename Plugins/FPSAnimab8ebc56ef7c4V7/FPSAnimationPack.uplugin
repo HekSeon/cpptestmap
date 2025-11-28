@@ -1,0 +1,50 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "2025.2.0",
+	"FriendlyName": "FPS Animation Ultimate",
+	"Description": "Most advanced FPS animations.",
+	"Category": "Animation",
+	"CreatedBy": "KINEMATION",
+	"CreatedByURL": "",
+	"DocsURL": "https://kinemation.gitbook.io/fps-animation-pack-unreal",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EngineVersion": "5.6.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "RecoilAnimation",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault",
+			"PlatformAllowList": [
+				"Win64",
+				"Linux",
+				"Mac",
+				"Android"
+			]
+		},
+		{
+			"Name": "ProceduralConverter",
+			"Type": "UncookedOnly",
+			"LoadingPhase": "PreDefault",
+			"PlatformAllowList": [
+				"Win64",
+				"Linux",
+				"Mac",
+				"Android"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ControlRig",
+			"Enabled": true
+		},
+		{
+			"Name": "EnhancedInput",
+			"Enabled": true
+		}
+	]
+}
