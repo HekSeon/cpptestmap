@@ -1,4 +1,10 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+//============================================================================
+//
+//	Autor: BAYAR SEMIH
+//
+//  file: WeaponSystem.h
+//
+//============================================================================
 
 #pragma once
 
