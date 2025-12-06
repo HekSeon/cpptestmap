@@ -19,8 +19,6 @@
 #include "Components/InputComponent.h"
 #include "InputMappingContext.h"
 #include "InputActionValue.h"
-#include "MovieSceneTracksComponentTypes.h"
-#include "SNegativeActionButton.h"
 #include "Components/CapsuleComponent.h"
 #include "Misc/MapErrors.h"
 
@@ -63,6 +61,7 @@ void AMCharacter::MoveRight(const FInputActionValue& value)
 		const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y);
 
 		AddMovementInput(Direction,AxisValue);
+		
 	}
 }
 
