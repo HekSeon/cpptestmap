@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "5.4",
+	"EngineAssociation": "5.7",
 	"Category": "",
 	"Description": "",
 	"Modules": [
@@ -13,23 +13,30 @@
 	"Plugins": [
 		{
 			"Name": "ModelingToolsEditorMode",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "BlockoutToolsPlugin",
-			"Enabled": true
-		},
-		{
-			"Name": "PivotTool",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "ElectronicNodes",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "DarkerNodes",
-			"Enabled": true
+			"Enabled": false
+		},
+		{
+			"Name": "VisualStudioTools",
+			"Enabled": false,
+			"SupportedTargetPlatforms": [
+				"Win64"
+			]
 		}
-	]
+	],
+	"TargetPlatforms": [],
+	"AdditionalRootDirectories": [],
+	"AdditionalPluginDirectories": [],
+	"EpicSampleNameHash": ""
 }

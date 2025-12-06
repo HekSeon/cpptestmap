@@ -1,4 +1,10 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+//============================================================================
+//
+//	Autor: BAYAR SEMIH
+//
+//  file: WeaponSystem.cpp
+//
+//============================================================================
 
 
 #include "WeaponSystem.h"
@@ -7,7 +13,6 @@
 #include "HealthComponent.h"
 #include "Components/ArrowComponent.h"
 #include "HealthComponent.h"
-#include "MovieSceneSequenceID.h"
 #include "Engine/DamageEvents.h"
 
 // Sets defau1111111111111111111111111lt values
@@ -23,8 +28,6 @@ AWeaponSystem::AWeaponSystem()
 
 	Muzzle=CreateDefaultSubobject<UArrowComponent>(TEXT("Muzzle"));
 	Muzzle->SetupAttachment(WeaponMesh);
-
-	
 
 }
 
